@@ -1,10 +1,11 @@
 {
-  "editor.fontFamily": "\"JetBrains Mono\"",
+  "editor.fontFamily": "\"Cascadia Code\"",
   "editor.fontWeight": "500",
   "editor.fontSize": 13,
-  "editor.lineHeight": 22,
+  "editor.lineHeight": 27,
   "terminal.integrated.fontSize": 12,
-  "workbench.colorTheme": "Adwaita Dark",
+  "workbench.colorTheme": "Yuru",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
   "editor.codeLens": false,
   "editor.folding": false,
   "editor.guides.indentation": false,
@@ -35,5 +36,11 @@
   "window.zoomLevel": 2,
   "window.menuBarVisibility": "toggle",
   "workbench.statusBar.visible": false,
-  "rust-analyzer.inlayHints.enable": false
+  "rust-analyzer.inlayHints.enable": false,
+  "workbench.startupEditor": "none",
+  "terminal.integrated.commandsToSkipShell": [
+    "language-julia.interrupt"
+  ],
+  "julia.symbolCacheDownload": true,
+  "julia.enableTelemetry": false
 }
