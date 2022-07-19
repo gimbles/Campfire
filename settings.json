@@ -1,11 +1,19 @@
+/* Heavily inspired from arzg's VSCode config. Go check out their themes! */
 {
-  "editor.fontFamily": "\"Cascadia Code\"",
+  /* Fonts */
+  "editor.fontFamily": "Red Hat Mono VF",
+  "terminal.integrated.fontFamily": "Cascadia Code",
   "editor.fontWeight": "500",
-  "editor.fontSize": 13,
+  "editor.fontLigatures": true,
   "editor.lineHeight": 27,
-  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontSize": 13,
+  /* Colorscheme: "Noel" on Marketplace, Yuru variant */
   "workbench.colorTheme": "Yuru",
-  "terminal.integrated.fontFamily": "JetBrains Mono",
+  /* Cursors */
+  "terminal.integrated.cursorStyle": "line",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorWidth": 1,
+  /* Remove overwhelming garbage */
   "editor.codeLens": false,
   "editor.folding": false,
   "editor.guides.indentation": false,
@@ -21,26 +29,36 @@
   "security.workspace.trust.enabled": false,
   "workbench.editor.showTabs": false,
   "workbench.list.automaticKeyboardNavigation": false,
-  "editor.cursorWidth": 1,
   "editor.renderLineHighlight": "all",
-  "editor.rulers": [
-    100
-  ],
   "editor.suggest.snippetsPreventQuickSuggestions": false,
-  "workbench.tree.indent": 24,
+  "workbench.statusBar.visible": false,
+  "editor.inlayHints.enabled": "off",
+  "rust-analyzer.inlayHints.enable": false,
+  /* Keep it under 80. */
+  "editor.rulers": [
+    80
+  ],
+  /* Can't think without proper formatting */
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
+  /* Trimming */
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  "window.zoomLevel": 2,
+  /* Smooth */
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "window.zoomLevel": 1
+  /* Telemetry */
+  "julia.enableTelemetry": false,
+  "telemetry.telemetryLevel": "off",
+  /* VSCode meta */
+  "workbench.tree.indent": 40,
   "window.menuBarVisibility": "toggle",
-  "workbench.statusBar.visible": false,
-  "rust-analyzer.inlayHints.enable": false,
   "workbench.startupEditor": "none",
+  /* Julia */
   "terminal.integrated.commandsToSkipShell": [
     "language-julia.interrupt"
   ],
   "julia.symbolCacheDownload": true,
-  "julia.enableTelemetry": false
 }
