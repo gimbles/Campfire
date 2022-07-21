@@ -2,8 +2,9 @@
 {
   /* Fonts */
   "editor.fontFamily": "Red Hat Mono VF",
-  "terminal.integrated.fontFamily": "Cascadia Code",
+  "terminal.integrated.fontFamily": "Red Hat Mono VF",
   "editor.fontWeight": "500",
+  "terminal.integrated.fontWeight": "500",
   "editor.fontLigatures": true,
   "editor.lineHeight": 27,
   "terminal.integrated.fontSize": 13,
@@ -13,7 +14,7 @@
   "terminal.integrated.cursorStyle": "line",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorWidth": 1,
-  /* Remove overwhelming garbage */
+  /* Keep it zen. */
   "editor.codeLens": false,
   "editor.folding": false,
   "editor.guides.indentation": false,
@@ -31,10 +32,11 @@
   "workbench.list.automaticKeyboardNavigation": false,
   "editor.renderLineHighlight": "all",
   "editor.suggest.snippetsPreventQuickSuggestions": false,
-  "workbench.statusBar.visible": false,
   "editor.inlayHints.enabled": "off",
   "rust-analyzer.inlayHints.enable": false,
-  /* Keep it under 80. */
+  "workbench.activityBar.visible": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 0,
   "editor.rulers": [
     80
   ],
@@ -48,7 +50,7 @@
   /* Smooth */
   "editor.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
   /* Telemetry */
   "julia.enableTelemetry": false,
   "telemetry.telemetryLevel": "off",
@@ -61,4 +63,5 @@
     "language-julia.interrupt"
   ],
   "julia.symbolCacheDownload": true,
+  "workbench.statusBar.visible": false,
 }
